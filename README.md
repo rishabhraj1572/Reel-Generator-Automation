@@ -1,4 +1,4 @@
-
+# Reel-Generator-Automation
 **Project Overview**
 - **Name**: Reel Generator Automation
 - **Description**: This project automates the entire pipeline of generating and publishing Instagram Reels using a list of prompts. Simply provide your prompts, and the system will automatically create reels, render them, and upload them to Instagram—without any manual effort.
@@ -93,4 +93,5 @@ docker buildx build --platform linux/amd64 -t sora:latest .
 **Contributing**
 - Open an issue or a pull request with a clear description of bug fixes or features.
 - Keep changes focused and add tests where appropriate.
+
 # Reel-Generator-Automation
