@@ -94,4 +94,3 @@ docker buildx build --platform linux/amd64 -t sora:latest .
 - Open an issue or a pull request with a clear description of bug fixes or features.
 - Keep changes focused and add tests where appropriate.
 
-# Reel-Generator-Automation
