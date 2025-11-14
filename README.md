@@ -2,10 +2,8 @@
 **Project Overview**
 - **Name**: Reel Generator Automation
 - **Description**: This project automates the entire pipeline of generating and publishing Instagram Reels using a list of prompts. Simply provide your prompts, and the system will automatically create reels, render them, and upload them to Instagram—without any manual effort.
-
-With Docker support, you can easily schedule and run the workflow at any time. Just load your prompts, and the automated pipeline will handle everything from content generation to final publishing.
-
-Perfect for content creators, agencies, and automated social media workflows.
+- With Docker support, you can easily schedule and run the workflow at any time. Just load your prompts, and the automated pipeline will handle everything from content generation to final publishing.
+- Perfect for content creators, agencies, and automated social media workflows.
 
 **Quick Features**
 - **Content scripts**: run discrete scripts to create and post content.
@@ -85,12 +83,6 @@ python -m pip install -r requirements.txt
 python sora.py
 ```
 
-- Create a gist:
-
-```bash
-python gist.py --file snippet.py --title "Snippet"
-```
-
 **Docker**
 - Build the image:
 
@@ -101,7 +93,4 @@ docker buildx build --platform linux/amd64 -t sora:latest .
 **Contributing**
 - Open an issue or a pull request with a clear description of bug fixes or features.
 - Keep changes focused and add tests where appropriate.
-# Reel-Generator-Automation
-# Reel-Generator-Automation
-# Reel-Generator-Automation
 # Reel-Generator-Automation
