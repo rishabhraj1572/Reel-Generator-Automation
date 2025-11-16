@@ -38,7 +38,7 @@ python -m pip install -r requirements.txt
 
 1. Create the `video_prompt` Gist
 	- Go to https://gist.github.com/ and create a new gist named `video_prompt`.
-	- Now Add your video generation prompts in an array. Ex. ['proompt1','prompt2']
+	- Now Add your video generation prompts in an array. Ex. ['prompt1','prompt2']
 	- After saving, copy the Gist ID from the URL: `https://gist.github.com/<username>/<GIST_ID>` — keep the `<GIST_ID>` value.
 	- Add `GIST_ID` to `constants.py` (or export it as an environment variable).
 
